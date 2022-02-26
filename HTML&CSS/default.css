@@ -1,0 +1,16 @@
+.fa-star {
+  color: #FFC82D;
+}
+
+.fa-star:last-child {
+  color: #EAEAEA;
+}
+
+.contect_text {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.book_radius {
+  border-radius:10px;
+}
