@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid #00C6AD;
+}
+
+.playlist {
+  margin-top: 50px;
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.playlist span:last-child {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 105px;
+}
+
+.playing {
+  /* margin-top: 40px; */
+}
+
+.palying__main {
+  
+}
+
+.color_square--big {
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+  border-radius: 15px;
+  background-color: #FFBD11;
+}
+
+.color_square {
+  width: 65px;
+  height: 65px;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+
+.playing__sub {
+  margin-top: 45px;
+  display: flex;
+}
+
+.play_waiting .playing__sub:nth-child(1) .color_square {
+  background-color: #F65A2A;
+}
+
+.play_waiting .playing__sub:nth-child(2) .color_square {
+  background-color: #FF89BB;
+}
+
+.play_waiting .playing__sub:nth-child(3) .color_square {
+  background-color: #1847E5;
+}
+
+.play_waiting .playing__sub:nth-child(4) .color_square {
+  background-color: #00C6AD;
+}
+
+.play_waiting .playing__sub:nth-child(4) {
+  margin-bottom: 45px;
+}
+
+ .playing__sub--space--big {
+   margin-left: 20px;
+ }
+
+ .playing__sub--space {
+   margin: 5px 0px 0px 20px;
+ }
+
+.playing__title {
+  display: block;
+}
+
+.play_icon {
+  margin-top: 45px;
+  display: flex;
+}
+
+.play_icon div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 5px;
+}
+
+.play_icon div:first-child {
+  width: 100px;
+  height: 50px;
+  font-weight: 900;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+
+.play_icon div:nth-child(2) {
+  margin: 0px 20px;
+}
+
+.play_icon__circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid black;
+}
+
+.playing__title--big {
+  font-size: 30px;
+  font-weight: 900;
+  width: 110px;
+  line-height: 35px;
+}
+
+
+.playing__title--small {
+  font-weight: 900;
+  font-size: 23px;
+}
+
+.playing__content {
+  margin-top: 10px;
+  font-size: 16px;
+  display: block;
+}
+
+.playing__content--big {
+  font-weight: 700;
+}
