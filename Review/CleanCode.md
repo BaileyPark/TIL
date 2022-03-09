@@ -121,7 +121,7 @@
 - 기획이란, 리팩토링이란, 경험에서 우러나오는 것이며, 그 간접경험을 할 수 있는 것이 클린코드라는 것을 새삼 깨닫는다.
 - 이 책을 읽기 전의 나와 지금의 나는 많이 바뀌었을까? 당장 적용에는 큰 요소가 되진 않을 것이다. 다만, 스스로가 디테일해졌다는 점에선 공감한다.
 ### 궁금한 점
-- RDD? (Responsibility Driven Design) - 책임주도설계, 책임을 정한 후, 책임을 수행할 객체를 결정 (반대말. 데이터주도설계, 동음이의어. Resilient Distributed Dataset)
+- RDD? (Responsibility Driven Design) - 책임 주도 설계, 책임을 정한 후, 책임을 수행할 객체를 결정 (반대말. 데이터 주도 설계 / 동음이의어. Resilient Distributed Dataset)
 
 ----
 #노마드클럽 #북클럽 #노개북
